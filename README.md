@@ -10,8 +10,6 @@ This repository contains a Convolutional Neural Network (CNN) model for classify
 - [Usage](#usage)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -65,6 +63,10 @@ Total params: 1,240,869
 Trainable params: 1,240,869
 
 Non-trainable params: 0
+
+## Results
+
+After training for 10 epochs, the model achieved a validation accuracy of approximately 0.9, demonstrating its effectiveness in classifying musical notes.
 
 
 
