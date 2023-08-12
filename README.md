@@ -53,11 +53,18 @@ Just run the Python file using the following command on your terminal:
 The CNN model architecture used for music note classification is as follows:
 
 Layer (type)               Output Shape         Param
+
 conv2d (Conv2D)            (None, 62, 62, 32)   896
+
 ...
+
 dense_1 (Dense)            (None, 5)            645
+
 Total params: 1,240,869
+
 Trainable params: 1,240,869
+
 Non-trainable params: 0
+
 
 
