@@ -4,10 +4,8 @@ This repository contains a Convolutional Neural Network (CNN) model for classify
 
 Integratring with a simple GUI, this software allows you to simply classify different notes and get a short tutorial on each type of note.
 
-https://i.ibb.co/xXntDXX/Screenshot-2023-08-12-at-2-13-32-AM.png
 ![alt text](https://i.ibb.co/xXntDXX/Screenshot-2023-08-12-at-2-13-32-AM.png)
 
-https://i.ibb.co/HXmMGVw/Screenshot-2023-08-12-at-2-14-07-AM.png
 ![alt text](https://i.ibb.co/HXmMGVw/Screenshot-2023-08-12-at-2-14-07-AM.png)
 
 ## Table of Contents
