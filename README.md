@@ -1,5 +1,7 @@
 # Music Note Classification with CNN
 
+## This project has been written by Rambod Azimi for professor Eunice Jun's lab
+
 This repository contains a Convolutional Neural Network (CNN) model for classifying different musical notes. The CNN model is trained on a dataset of music symbols, enabling automated recognition of note types in sheet music.
 
 Integratring with a simple GUI, this software allows you to simply classify different notes and get a short tutorial on each type of note.
