@@ -1,7 +1,5 @@
 # Music Note Classification with CNN
 
-![Repository Logo](images/logo.png) <!-- If you have a logo or relevant image -->
-
 This repository contains a Convolutional Neural Network (CNN) model for classifying different musical notes. The CNN model is trained on a dataset of music symbols, enabling automated recognition of note types in sheet music.
 
 ## Table of Contents
@@ -36,4 +34,32 @@ Each category consists of 1000 data samples, with 800 for training and 200 for v
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/music-note-classification.git
+   git clone https://github.com/rambodazimi/music-note-classification.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd music-note-classification
+   
+## Usage
+
+The GUI application allows you to upload an image containing a musical note, predicts its class, and provides a description of the note.
+Just run the Python file using the following command on your terminal:
+   ```bash
+   python model.py
+   ```
+
+## Model Architecture
+
+The CNN model architecture used for music note classification is as follows:
+
+Layer (type)               Output Shape         Param #
+=======================================================
+conv2d (Conv2D)            (None, 62, 62, 32)   896
+...
+dense_1 (Dense)            (None, 5)            645
+=======================================================
+Total params: 1,240,869
+Trainable params: 1,240,869
+Non-trainable params: 0
+
+
